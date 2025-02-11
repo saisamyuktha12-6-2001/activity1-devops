@@ -4,7 +4,7 @@ pipeline {
     stage('test') {
       steps {
         echo 'iam samyu'
-        bat '"C:\\Users\\Samyuktha\\AppData\\Local\\Programs\\Python\\Python311\\python.exe" script.py1'
+        bat 'script.py1'
       }
     }
   }
