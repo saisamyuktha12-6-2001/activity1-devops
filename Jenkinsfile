@@ -1,11 +1,11 @@
 pipeline {
-  agent any
-  stages {
-    stage('test') {
-      steps {
-        echo 'iam samyu'
-        bat 'python script.py'
-      }
+    agent any
+    stages {
+        stage('test') {
+            steps {
+                echo 'hello jen'
+                bat '"C:\\Users\\Samyuktha\\AppData\\Local\\Programs\\Python\\Python311\\python.exe" script.py'
+            }
+        }
     }
-  }
 }
