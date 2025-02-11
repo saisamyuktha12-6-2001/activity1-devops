@@ -4,7 +4,7 @@ pipeline {
     stage('test') {
       steps {
         echo 'iam samyu'
-        bat 'script.py1'
+        bat 'script.py'
       }
     }
   }
